@@ -5,11 +5,13 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{60B7B513-9FBB-494F-9F1C-712A926A2633}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{BAD60DF4-168B-4067-80A3-C9D1BDD6F882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{BAD60DF4-168B-4067-80A3-C9D1BDD6F882}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{207EFDCE-825A-4341-8EC6-CF881A090A92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ProductsAPI", "Mango.Services.ProductsAPI\Mango.Services.ProductsAPI.csproj", "{6FB72A18-2BD7-4C18-8530-86DA3DBD7E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ProductsAPI", "Mango.Services.ProductsAPI\Mango.Services.ProductsAPI.csproj", "{6FB72A18-2BD7-4C18-8530-86DA3DBD7E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ShoppingCartAPI", "Mango.Services.ShoppingCartAPI\Mango.Services.ShoppingCartAPI.csproj", "{AEE537DC-8BD8-4B52-95CC-A57C06A980CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{6FB72A18-2BD7-4C18-8530-86DA3DBD7E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FB72A18-2BD7-4C18-8530-86DA3DBD7E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FB72A18-2BD7-4C18-8530-86DA3DBD7E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE537DC-8BD8-4B52-95CC-A57C06A980CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE537DC-8BD8-4B52-95CC-A57C06A980CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE537DC-8BD8-4B52-95CC-A57C06A980CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE537DC-8BD8-4B52-95CC-A57C06A980CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BAD60DF4-168B-4067-80A3-C9D1BDD6F882} = {60B7B513-9FBB-494F-9F1C-712A926A2633}
 		{6FB72A18-2BD7-4C18-8530-86DA3DBD7E54} = {207EFDCE-825A-4341-8EC6-CF881A090A92}
+		{AEE537DC-8BD8-4B52-95CC-A57C06A980CD} = {207EFDCE-825A-4341-8EC6-CF881A090A92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9F988C2-9EB4-4BE8-8FD4-A291E298AA0A}
